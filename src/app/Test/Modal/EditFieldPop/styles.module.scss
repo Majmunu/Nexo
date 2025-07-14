@@ -1,0 +1,44 @@
+.EditFieldPop_container{
+  :global{
+    .inputWrapper{
+      margin: 0 auto;
+      display: grid;
+      width: 1114px;
+      height: 548px;
+      max-height: 548px;
+      overflow-y: auto;
+      background-color: rgba(255,255,255,0.04);
+      border: 1px solid #484848;
+      border-radius: 4px;
+    }
+    .footer{
+      display: flex;
+      width: 1114px;
+      align-content: center;
+      align-items: center;
+      justify-content: flex-end;
+      column-gap: 16px;
+      margin-top: 32px;
+
+    }
+  }
+}
+/*
+值输入组件样式*/
+.inputValue_container{
+  width: 531px;
+  height: 160px;
+  margin:0 auto;
+}
+/*子查询*/
+.InputSubquery_container{
+  margin: 0 auto;
+  display: flex;
+  color:#3d84ff;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  row-gap: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
